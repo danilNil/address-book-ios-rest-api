@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		17475C65AD41C9158BA24F0C /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 795C7BBB8E45562B9B260F54 /* libPods.a */; };
+		5AEF0523CA086AEFE662F05D /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AEF0AB45F7CB20E1F925195 /* DetailViewController.m */; };
 		83A382871A27005A00ED16F0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A382861A27005A00ED16F0 /* main.m */; };
 		83A3828A1A27005A00ED16F0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A382891A27005A00ED16F0 /* AppDelegate.m */; };
 		83A3828D1A27005A00ED16F0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83A3828C1A27005A00ED16F0 /* ViewController.m */; };
@@ -28,6 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5AEF0AB45F7CB20E1F925195 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		5AEF0B575B3C35DC6B858A05 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		6C6AA0CED51FE66FE1B9506C /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		795C7BBB8E45562B9B260F54 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		83A382811A27005A00ED16F0 /* AddressBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AddressBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -105,6 +108,8 @@
 				83A382911A27005A00ED16F0 /* Images.xcassets */,
 				83A382931A27005A00ED16F0 /* LaunchScreen.xib */,
 				83A382841A27005A00ED16F0 /* Supporting Files */,
+				5AEF0AB45F7CB20E1F925195 /* DetailViewController.m */,
+				5AEF0B575B3C35DC6B858A05 /* DetailViewController.h */,
 			);
 			path = AddressBook;
 			sourceTree = "<group>";
@@ -283,6 +288,7 @@
 				83A3828D1A27005A00ED16F0 /* ViewController.m in Sources */,
 				83A3828A1A27005A00ED16F0 /* AppDelegate.m in Sources */,
 				83A382871A27005A00ED16F0 /* main.m in Sources */,
+				5AEF0523CA086AEFE662F05D /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
